@@ -1,0 +1,68 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 AREA             delay, CODE
+    2 00000000                 EXPORT           _delay_us   ;make _delay_us vis
+                                                            ible
+    3 00000000                 ALIGN
+    4 00000000         _delay_us
+                               PROC
+    5 00000000         
+    6 00000000 B510            PUSH             {r4, lr}
+    7 00000002 F04F 012E 
+                       outer   MOV              r1, #46     ; ??? 24000=(72,000
+                                                            ,000/1000)/3
+    8 00000006 1E49    inner   SUBS             r1, r1, #1
+    9 00000008 D1FD            BNE              inner
+   10 0000000A 1E40            SUBS             r0, r0, #1
+   11 0000000C D1F9            BNE              outer
+   12 0000000E BD10            POP              {r4, pc}
+   13 00000010                 ENDP
+   14 00000010                 END
+Command Line: --debug --xref --cpu=Cortex-M4.fp --apcs=interwork --depend=.\out
+put\_delay_us.d -o.\output\_delay_us.o -IC:\TE2023\Keil\ARM\RV31\INC -IC:\TE202
+3\Keil\ARM\CMSIS\Include -IC:\TE2023\Keil\ARM\Inc\ST\STM32F4xx --predefine="__E
+VAL SETA 1" --list=.\_delay_us.lst Source\Libraries\_delay_us.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+_delay_us 00000000
+
+Symbol: _delay_us
+   Definitions
+      At line 4 in file Source\Libraries\_delay_us.s
+   Uses
+      At line 2 in file Source\Libraries\_delay_us.s
+Comment: _delay_us used once
+delay 00000000
+
+Symbol: delay
+   Definitions
+      At line 1 in file Source\Libraries\_delay_us.s
+   Uses
+      None
+Comment: delay unused
+inner 00000006
+
+Symbol: inner
+   Definitions
+      At line 8 in file Source\Libraries\_delay_us.s
+   Uses
+      At line 9 in file Source\Libraries\_delay_us.s
+Comment: inner used once
+outer 00000002
+
+Symbol: outer
+   Definitions
+      At line 7 in file Source\Libraries\_delay_us.s
+   Uses
+      At line 11 in file Source\Libraries\_delay_us.s
+Comment: outer used once
+4 symbols
+336 symbols in table

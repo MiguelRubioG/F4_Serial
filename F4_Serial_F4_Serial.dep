@@ -1,0 +1,32 @@
+Dependencies for Project 'F4_Serial', Target 'F4_Serial': (DO NOT MODIFY !)
+F (.\Startup\startup_stm32f40_41xxx.s)(0x532CC85C)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\TE2023\Keil\ARM\RV31\INC-I C:\TE2023\Keil\ARM\CMSIS\Include-I C:\TE2023\Keil\ARM\Inc\ST\STM32F4xx--list .\startup_stm32f40_41xxx.lst --xref -o .\output\startup_stm32f40_41xxx.o --depend .\output\startup_stm32f40_41xxx.d)
+F (.\Startup\system_stm32f4xx.c)(0x532CC85C)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I.\Source -I.\Source\Libraries-I C:\TE2023\Keil\ARM\RV31\INC-I C:\TE2023\Keil\ARM\CMSIS\Include-I C:\TE2023\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\output\system_stm32f4xx.o --omf_browse .\output\system_stm32f4xx.crf --depend .\output\system_stm32f4xx.d)
+I (C:\TE2023\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532CC64A)
+I (C:\TE2023\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532CCAB2)
+I (C:\TE2023\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (C:\TE2023\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CCAB2)
+I (C:\TE2023\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CCAB2)
+I (C:\TE2023\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532CCAB2)
+I (C:\TE2023\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532CC64A)
+F (.\Source\Libraries\_delay_ms.s)(0x58F90E2A)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\TE2023\Keil\ARM\RV31\INC-I C:\TE2023\Keil\ARM\CMSIS\Include-I C:\TE2023\Keil\ARM\Inc\ST\STM32F4xx--list .\_delay_ms.lst --xref -o .\output\_delay_ms.o --depend .\output\_delay_ms.d)
+F (.\Source\Libraries\_delay_us.s)(0x58F90F27)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\TE2023\Keil\ARM\RV31\INC-I C:\TE2023\Keil\ARM\CMSIS\Include-I C:\TE2023\Keil\ARM\Inc\ST\STM32F4xx--list .\_delay_us.lst --xref -o .\output\_delay_us.o --depend .\output\_delay_us.d)
+F (.\Source\Libraries\USART2.c)(0x58FE24A1)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I.\Source -I.\Source\Libraries-I C:\TE2023\Keil\ARM\RV31\INC-I C:\TE2023\Keil\ARM\CMSIS\Include-I C:\TE2023\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\output\usart2.o --omf_browse .\output\usart2.crf --depend .\output\usart2.d)
+I (C:\TE2023\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532CC64A)
+I (C:\TE2023\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532CCAB2)
+I (C:\TE2023\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (C:\TE2023\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CCAB2)
+I (C:\TE2023\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CCAB2)
+I (C:\TE2023\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532CCAB2)
+I (C:\TE2023\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532CC64A)
+F (.\Source\Libraries\USART2.h)(0x58FB707D)()
+F (.\Source\main.c)(0x58FB8A14)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I.\Source -I.\Source\Libraries-I C:\TE2023\Keil\ARM\RV31\INC-I C:\TE2023\Keil\ARM\CMSIS\Include-I C:\TE2023\Keil\ARM\Inc\ST\STM32F4xx-DSTM32F40_41xxx-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (C:\TE2023\Keil\ARM\Inc\ST\STM32F4xx\stm32f4xx.h)(0x532CC64A)
+I (C:\TE2023\Keil\ARM\CMSIS\Include\core_cm4.h)(0x532CCAB2)
+I (C:\TE2023\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (C:\TE2023\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x532CCAB2)
+I (C:\TE2023\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x532CCAB2)
+I (C:\TE2023\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x532CCAB2)
+I (C:\TE2023\Keil\ARM\Inc\ST\STM32F4xx\system_stm32f4xx.h)(0x532CC64A)
+I (.\Source\Libraries\delay.h)(0x58F90AD0)
+I (.\Source\Libraries\USART2.h)(0x58FB707D)
+I (C:\TE2023\Keil\ARM\ARMCC\include\stdio.h)(0x51C88A34)

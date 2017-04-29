@@ -1,0 +1,10 @@
+--cpu Cortex-M4.fp
+".\output\startup_stm32f40_41xxx.o"
+".\output\system_stm32f4xx.o"
+".\output\_delay_ms.o"
+".\output\_delay_us.o"
+".\output\usart2.o"
+".\output\main.o"
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\F4_Serial.map" -o .\Output\F4_Serial.axf
